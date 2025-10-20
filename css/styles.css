@@ -25,6 +25,7 @@ html {
     /* 62.5% of 16px = 10px*/
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,8 @@ body {
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--color-body);
+    outline: 1px solid red;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
